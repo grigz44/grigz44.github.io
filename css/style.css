@@ -1275,3 +1275,10 @@ footer .credits a {
 .example::-webkit-scrollbar {
   display:none;
 }
+
+
+
+.example2 {
+  
+  box-shadow: 10px 18px 14px #888888;
+}
