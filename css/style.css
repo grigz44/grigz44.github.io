@@ -1,4 +1,4 @@
-/*
+/*.title-s.title-left:before
   Theme Name: DevFolio
   Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
   Author: BootstrapMade.com
@@ -10,21 +10,23 @@
 ======================================*/
 
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #000000;
+  color: #ffffffb7;
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #ffffffd2;
+}
+h2{
+  color: #707070d3;
 }
 
 a {
-  color: #1e1e1e;
+  color: #797979ce;
   transition: all 0.5s ease-in-out;
 }
 
@@ -43,7 +45,7 @@ a:hover {
 }
 
 .color-d {
-  color: #f5f5f5;
+  color: #000000;
 }
 
 .color-text-a {
@@ -90,7 +92,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #ffffff79;
 }
 
 .overlay-mf {
@@ -137,7 +139,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #ffffffd8;
   font-size: 1.1rem;
 }
 
@@ -160,7 +162,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #ffffffce;
   margin: 0 auto;
 }
 
@@ -179,7 +181,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #ffffffce;
   width: 100px;
   bottom: -12px;
 }
@@ -193,7 +195,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #000000;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -216,12 +218,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #707070d3;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #707070d3;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -246,7 +248,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #ffffff;
   margin-right: 10px;
 }
 
@@ -260,7 +262,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #707070d3;
   display: block;
 }
 
@@ -326,7 +328,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #ffffffd3;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -342,7 +344,7 @@ a:hover {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: #000000de;
 }
 
 /* Prelaoder */
@@ -355,7 +357,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #ffffff;
 }
 
 #preloader:before {
@@ -363,8 +365,8 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border: 6px solid #b4b4b4;
+  border-top: 6px solid #000000;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -475,32 +477,32 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #000000;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -685,11 +687,11 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #ffffff9a;
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #fffffffa;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -697,7 +699,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #646464;
 }
 
 /*======================================
@@ -714,7 +716,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #707070d3;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -744,7 +746,7 @@ a:hover {
 ======================================*/
 
 .counter-box {
-  color: #fff;
+  color: #000000ab;
   text-align: center;
 }
 
@@ -756,7 +758,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #707070d3;
 }
 
 .counter-num .counter {
@@ -799,12 +801,12 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #707070d3;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #707070d3;
   float: right;
 }
 
@@ -829,7 +831,7 @@ a:hover {
 }
 
 .testimonial-box {
-  color: #fff;
+  color: #00000088;
   text-align: center;
 }
 
@@ -842,7 +844,7 @@ a:hover {
 }
 
 .testimonial-box .author {
-  color: #fff;
+  color: #0000008e;
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
@@ -852,7 +854,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color: #707070d3;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -885,7 +887,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #707070d3;
   border-radius: 4px;
 }
 
@@ -1281,4 +1283,10 @@ footer .credits a {
 .example2 {
   
   box-shadow: 10px 18px 14px #888888;
+}
+
+
+
+.rounded1 {
+  border-radius: 10rem !important;
 }
